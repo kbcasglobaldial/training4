@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Disposition</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand gds" href="/Office/process%20trainings/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul id="dropdown-menu" class="nav navbar-nav">
+				<li><a href="/Office/process%20trainings/">Home</a></li>
+				<li><a href="/Office/phonetics/">Phonetics</a></li>
+				<li><a href="/Office/scripts/">Scripts</a></li>
+				<li><a href="/Office/force%20call%20exits/">Force Call Exit Script</a></li>
+				<li><a href="/Office/notes/">Notes</a></li>
+				<li><a href="/Office/dispositions/">Disposition</a></li>
+				<li><a href="/Office/faqs/">FAQs</a></li>
+				<li><a href="/Office/what's%20new/">What's New</a></li>
+				<li><a href="/Office/do's%20n%20dont's/">Do's and Dont's</a></li>
+			</ul>
+		</div>
+	</nav>
+	<h2>Disposition</h2>
+	<table style="border: 1px solid black;">
+		<tr style="border: 1px solid black;">
+			<th style="width: 40px;border: 1px solid black;">S.No.</th>
+			<th style="border: 1px solid black;">Disposition</th>
+			<th style="border: 1px solid black;">Description</th>
+		</tr>
+		<tr style="border: 1px solid black;" id="dark">
+			<td rowspan="5" style="border: 1px solid black;" id="dark">1</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="4" style="border: 1px solid black;" class="Direct">Direct Number</td>
+			<td style="border: 1px solid black;" class="Direct">When we reach RPC's VM without dialing an Extn or talking to operator.</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Reached the VM which states "Its my(Prospect's) Cell phone, please leave a message".</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">VM of DM stating , he is not available.</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">VM of DM stating, he does not take calls.</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="8" style="border: 1px solid black;">2</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="7" style="border: 1px solid black;">DNC & Call Alert</td>
+			<td style="border: 1px solid black;">If GK/ DM asks to remove their name and number from our calling list.</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If DM says he is Not Interested (For Any reason).</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">GK/RPC stated that they are receiving multiple calls from us and ask us to remove their number from our list.</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK is adamant about speaking to our manager (Pitcher) and is not willing to hang up till she/he speaks to the Manager (Pitcher) - Force Call Exit Scenario.</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If an agent discloses the company name and/or the pitcher's name to the RPC</td>
+		</tr>
+		<tr style="border: 1px solid black;" style="border: 1px solid black;">
+			<td style="border: 1px solid black;">While doing graceful exit on a call if DM agrees to incorrect last name and incorrect company name</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">While doing graceful exit on a call agent gives incorrect session/pitcher's name when DM asked for the same however DM still asks to remove his name from the calling list.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="2" style="border: 1px solid black;" class="Direct">3</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Fax Tone</td>
+			<td style="border: 1px solid black;" class="Direct">If call is connected to a fax number(Directly/Indirectly).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="23" style="border: 1px solid black;">4</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="22" style="border: 1px solid black;">GK Block Rem</td>
+			<td style="border: 1px solid black;">GK refuses to connect the call without knowing the reason/substance of the call.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Language Barrier - GK/Person answering does not speak or understand English.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK is asking to speak to our manager (Pitcher) and is also asking for more details like purpose of the call, our location, country, phone number, etc. on the same call (provided the call does not become a Force Call Exit).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK says they are not interested or if GK says that she had checked with the RPC and he is not interested.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK mentions that she can take decision on behalf of RPC.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK states we have received an email from the pitcher and does not transfer the call to RPC.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK asks to set up an appointment.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK mentions that RPC only takes Emergency Calls or internal calls.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">GK asks if it is a sales call and is not ready to transfer the call.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">GK says they don't transfer calls to employees and we can reach them on their cell# or home# (GK also has no information about the Cell # or Home #)
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">GK recognizes the RPC and says no number or ext to reach rpc. Also, suggests that they can share DM's email ID.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Incase GK states that he/she needs additional information i.e. anything apart from DM's First name/last name/company name/job title/department name irrespective whether he/she recognizes DM or not
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Incase GK states that they have multiple employees with same name and ask for additional information i.e. anything apart from DM's First name/last name/company name/job title/department name in order to identify DM.
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK says she cannot transfer the call and hangs up.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK says RPC does not want to talk to our company.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK that he will transfer the call to RPC and instead transfers the call to a VM stating "We do not accept unsolicited calls. / A recorded message that guides on how to do business with their company/ A recorded message that mentions if we want to contact any one in their office then we need to first send them an email".
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK states that they do not accept Unsolicited Calls.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK stated that RPC is the owner of the company and does not come to office and GK cannot transfer the call internally.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK stated that RPC is a contractor/Field agent/board member, does not come to office and GK cannot transfer the call internally.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK states that she can only transfer call to DM's VM.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK states Rpc's department does not take calls.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If GK states that they are in touch with our company/pitcher and does not transfer the call.
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="2" style="border: 1px solid black;" class="Direct">5</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">No Answer</td>
+			<td style="border: 1px solid black;" class="Direct">In case we get a pop up message as "No Answer" and the same also appears over the redial button.
+			</td>
+		</tr>
+
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="12" style="border: 1px solid black;">6</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="11" style="border: 1px solid black;">Not Available</td>
+			<td style="border: 1px solid black;">If RPC is on Lunch, Vacation, No Answer, No Response, left for the day Or Travelling.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">DM is located offshore and GK has the facility to transfer the call internally, however, cannot transfer the call because of time difference.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Got live voice of RPC after GK transferred the call, but was not able to hear the name clearly due to any reason (Graceful exit).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If RPC works in Night Shift/Semi Retired or comes once a week ( Not available).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">When GK hangs up before agent could ask for DM.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">When RPC opens the call without disclosing his/her identity either directly or after going through DBN or Operator (no old notes) - Graceful Exit.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Call ends as soon as its connected or call connects to dead air.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">When we reach a residential number for RPC. In case somebody says that rpc is not there and it is a residential number. That person cannot transfer the call internally to the RPC.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">When GK/Person answers the call, agent asks for DM, GK says "Wrong Number" and hangs up before agent could verify the company name it should be disposed as Not Available (1st Attempt).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Incase GK hangs up before agent could do the required probing to get an end resolution of the call.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Whenever you see a pop up message as Busy, Hang Up, or Other and the same is also mentioned over the redial button.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="8" style="border: 1px solid black;" class="Direct">7</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="7" style="border: 1px solid black;" class="Direct">Person Left Rem</td>
+			<td style="border: 1px solid black;" class="Direct">In case the Prospect is no longer with the company, however GK provides an alternate number to reach the DM (no previous notes indicating the same). Also, we are not required to dial the number given by GK.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If the prospect is no longer with the organization/company
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Company taken over by other company and RPC is no longer with the present company
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If GK says RPC is no longer with the company from specific time period (e.g. since 1,2,5 years etc.).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If the GK states that RPC is working with a different company (which is not related to the present company).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">In case Direct VM of the prospect/someone else states that DM is no longer with the company.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If GK states RPC is Retired.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="4" style="border: 1px solid black;">8</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="3" style="border: 1px solid black;">Pitcher Busy</td>
+			<td style="border: 1px solid black;">When the agent has to discontinue a call due to non-availability of the pitcher or pitcher turns busy.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">When you get a pop up message as "Pitcher Busy" and the same also appears over the redial Button
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">On a direct call if agent spoke to RPC because of pitcher busy (select the Direct Call check box if not selected already)
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="15" style="border: 1px solid black;" class="Direct">9</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="14" style="border: 1px solid black;" class="Direct">Research Error</td>
+			<td style="border: 1px solid black;" class="Direct">IVR giving options for 3 different companies, however none of the company name matches with the company details mentioned on lead and there is no option for DBN and operator - 1st Attempt.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Call connects directly to an IVR with no option for DBN and operator - 1st Attempt.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If GK says company is taken over by another company and GK informs that they do not have anyone by the name of DM in their company.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Incase GK informs that DM is a consultant/client/customer or informs that DM's department is outsourced and there is no way to connect to him/her.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If it is a directory assistance number (Live Voice) or IVR asking for state and city For E.g. Telepacific Directory or 411 service - 1st Attempt.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If GK says RPC is deceased - 1st attempt.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If on a company IVR there is an option for DBN/ASD however agent is unable to find DM's name and there is no option for operator - 2nd Attempt.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">If GK informs that there is no one by that name(Correct Company).
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Message saying that the number is disconnected/not in service/not been activated (1st Attempt).
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Incase GK initially says no one by that name and later says that may be because DM is no longer with the company (GK assumes that DMs name is not showing in their database as he is no longer with the company).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Direct number of someone else or Direct number for a particular department, who recognizes the RPC/does not recognize RPC. He also says he cannot transfer to the Operator or Switch board.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">On a Direct Call, GK says that this company use to be in business, 2 years ago, but due to bankruptcy, it has been shut down.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Incase GK informs that he/she only has access to the directory for their location and they do not have DM listed. Also, they do not any other way to confirm if DM could be at any other location of their company. (same company as mentioned on the lead).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">GK mentions that there is no one by that name, not listed in the directory, but he or she is not sure (1st Attempt).
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="8" style="border: 1px solid black;">10</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="7" style="border: 1px solid black;">Voicemail</td>
+			<td style="border: 1px solid black;">When GK transfers the call to RPC's VM.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">When GK transfers the call to RPC's assistant's VM or someone else's VM (agent should not opt for the operator again instead just dispose the call).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If we reach a VM stating 'The person you're trying to reach does not have a voicemail set up yet'/General VM/Name not defined in VM.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If on a company IVR there is an option for DBN/ASD however agent is unable to find DM's name and there is no option for operator - 1st Attempt.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Non English VM/IVR.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If the call ends on an IVR directly or through GK.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">Voicemail of someone else.
+			</td>
+		</tr>
+
+
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="2" style="border: 1px solid black;" class="Direct">11</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Voicemail Dropped Active</td>
+			<td style="border: 1px solid black;" class="Direct">Whenever the leave voicemail button is active and agent drops a voicemail for the RPC.
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="3" style="border: 1px solid black;">12</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="2" style="border: 1px solid black;">Wrong Number Rem</td>
+			<td style="border: 1px solid black;">When you reach any other company apart from one mentioned on the lead (completely different company, no way linked to the company on the lead).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">When GK/Person answers the call, agent asks for DM, GK says "Wrong Number" and hangs up before agent could verify the company name it should be disposed as Wrong Number Rem (2nd Attempt).
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="7" style="border: 1px solid black;" class="Direct">13</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="6" style="border: 1px solid black;" class="Direct">Incomplete Record</td>
+			<td style="border: 1px solid black;" class="Direct">Incase GK states that he/she needs additional information i.e. DM's First name/last name/company name/job title/department name irrespective whether he/she recognizes DM or not.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Incase GK states that they have multiple employees with same name and ask for additional information i.e. DM's First name/last name/company name/job title/department name in order to identify DM.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">In case GK informs there is no one by prospect's name and we do not have a company name to verify.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">In case you get a call where DMs first name is missing completely then either you can hang up on dialing mode and dispose or if connected to Live person then pretend that you have reached a wrong number and dispose the call. (1st Attempt). (It also includes : In case we only have the initial of the first name and the complete last name, for eg: J.Smith).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Agent would follow the normal protocol i.e. ask for DM incase we only have DM's First name on the lead. Such calls would be disposed as Incomplete Record only when Gk specifically asks for the last name.
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">*Reason why we discourage pursuing the prospect when we only have the last name is because even if GK identifies the prospect with the help of last name or job title, prospect would anyways open the call with the 1st name and we will be never be able to transfer the call**.
+			</td>
+		</tr>
+
+
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="5" style="border: 1px solid black;">14</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td rowspan="4" style="border: 1px solid black;">Target in Different Location</td>
+			<td style="border: 1px solid black;">If RPC is located Offshore (other than US) and GK cannot transfer the call internally.
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If RPC works remotely or works from home and GK says that he will not transfer the call until he does not know the reason of the call.
+			</td>
+		</tr>
+
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">GK informs that DM does not work in this office and there is no other number to reach DM (GK is not sure about DM's location).
+			</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;">If RPC has relocated to any other location (within US) and GK cannot transfer the call internally.
+			</td>
+		</tr>
+
+
+		<tr style="border: 1px solid black;">
+			<td rowspan="2" style="border: 1px solid black;" class="Direct">15</td>
+		</tr>
+		<tr style="border: 1px solid black;">
+			<td style="border: 1px solid black;" class="Direct">Bad Number</td>
+			<td style="border: 1px solid black;" class="Direct">In case we get a pop up message as "Bad Number" and the same also appears over the redial button.
+			</td>
+		</tr>
+
+
+
+	</table>
+
+</body>
+
+</html>

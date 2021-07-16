@@ -1,0 +1,50 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    display: inline;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-left: 50%;
+}
+tr {
+    text-decoration: none;
+    color: black;
+    text-shadow: -.25px -.25px 0 transparent,
+        .25px .25px transparent;
+    margin: 0 4px;
+}
+
+tr:hover {
+    text-shadow: -.25px -.25px 0 black,
+        .25px .25px black;
+}
+
+th {
+    background-color: darkgrey;
+}
+
+#dark {
+    background-color: #dddddd;
+}
+
+.Direct {
+    background-color: #dddddd;
+}
+
+table {
+    font-size: 15px;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+
+.gds {
+
+    background: url("test.jfif") no-repeat 0px -3px;
+    display: block;
+    padding-top: 30px;
+    height: 20px;
+
+}
